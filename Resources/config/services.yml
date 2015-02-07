@@ -1,0 +1,9 @@
+services:
+    socialbit.sonatamediatwigextensionbundle.mediapathextension:
+        class: Socialbit\SonataMediaTwigExtensionBundle\Twig\MediaPathExtension
+        public: false
+        arguments:
+            - @service_container
+            - @sonata.media.manager.media
+        tags:
+            - { name: twig.extension }

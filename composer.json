@@ -1,0 +1,28 @@
+{
+  "name": "socialbit/sonatamediatwigextension-bundle",
+  "type": "symfony-bundle",
+  "description": "Bundle for generating paths to sonata media items in twig (and to be able to store them into variables).",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Thomas Kekeisen",
+      "email": "thomas.kekeisen@socialbit.de"
+    }
+  ],
+  "require": {
+    "doctrine/orm": "~2.2,>=2.2.3",
+    "symfony/symfony": "~2.6.1",
+    "sonata-project/media-bundle": "~2.3"
+  },
+  "suggest": {
+    "doctrine/doctrine-migrations-bundle": "~2.1@dev"
+  },
+  "autoload": {
+    "psr-4": {"Socialbit\\SonataMediaTwigExtensionBundle\\": ""}
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
