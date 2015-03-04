@@ -57,7 +57,9 @@ class MediaPathExtension extends \Twig_Extension
         $media = $this->getMedia($media);
 
         $provider = $this->container->get($media->getProviderName());
-
+        
+        $format = $provider->getFormatName($media, $format);
+        
         return $provider->generatePublicUrl($media, $format);
     }
 
