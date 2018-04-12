@@ -3,7 +3,7 @@ services:
         class: Socialbit\SonataMediaTwigExtensionBundle\Twig\MediaPathExtension
         public: false
         arguments:
-            - @service_container
-            - @sonata.media.manager.media
+            - '@service_container'
+            - '@sonata.media.manager.media'
         tags:
             - { name: twig.extension }
