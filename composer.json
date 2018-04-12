@@ -10,9 +10,9 @@
     }
   ],
   "require": {
-    "doctrine/orm": "~2.2,>=2.2.3",
-    "symfony/symfony": "~2.6.1",
-    "sonata-project/media-bundle": "~2.3"
+    "doctrine/orm": ">=2.2,>=2.2.3",
+    "symfony/symfony": ">=2.6.1",
+    "sonata-project/media-bundle": ">=2.3"
   },
   "suggest": {
     "doctrine/doctrine-migrations-bundle": "~2.1@dev"
